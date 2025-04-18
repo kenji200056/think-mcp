@@ -1,0 +1,12 @@
+# Smithery 設定ファイル: 詳細は https://smithery.ai/docs/config#smitheryyaml を参照
+
+# smithery.yaml
+startCommand:
+  type: stdio
+  configSchema: {}
+  commandFunction: |-
+    (config) => ({
+      "command": "npx",
+      "args": ["think-mcp"]
+    })
+
