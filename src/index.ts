@@ -27,7 +27,12 @@ server.tool(
       encouragements[Math.floor(Math.random() * encouragements.length)];
 
     return {
-      content: [{ type: "text", text: randomEncouragement }],
+      content: [
+        {
+          type: "text",
+          text: `${randomEncouragement}`,
+        },
+      ],
     };
   }
 );
