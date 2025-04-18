@@ -12,7 +12,7 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "think-mcp-server": "./build/index.js"
+    "think-mcp": "./build/index.js"
   },
   "files": [
     "build"
